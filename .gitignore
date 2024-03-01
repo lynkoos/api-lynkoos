@@ -1,7 +1,5 @@
 node_modules
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -123,10 +121,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-=======
+
 .next
 .vercel
->>>>>>> Stashed changes
-=======
+
 .next
->>>>>>> b8e1f073a17c81be9366afd6629568cf5c5fb0e3

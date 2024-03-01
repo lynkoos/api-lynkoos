@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './globals.css';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Head from 'next/head';
@@ -6,10 +7,19 @@ export const metadata = {
   title: 'api lynkoos',
   description: 'Esta es la página principal del API de Lynkoos. Aquí encontrarás información sobre los endpoints disponibles y cómo utilizarlos para interactuar con la plataforma Lynkoos.',
 };
+=======
+import './globals.css'
+
+export const metadata = {
+  title: 'API LYNKOOS',
+  description: 'Endpoint principal del api de lynkoos',
+}
+>>>>>>> b8e1f073a17c81be9366afd6629568cf5c5fb0e3
 
 export default function RootLayout({
   children,
 }: {
+<<<<<<< HEAD
   children: React.ReactNode;
 }) {
   return (
@@ -34,4 +44,13 @@ export default function RootLayout({
       <body>{children}</body>
     </>
   );
+=======
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="es">
+      <body>{children}</body>
+    </html>
+  )
+>>>>>>> b8e1f073a17c81be9366afd6629568cf5c5fb0e3
 }

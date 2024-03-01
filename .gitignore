@@ -1,12 +1,6 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-.pnpm-debug.log*
+node_modules
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -133,3 +127,6 @@ dist
 .next
 .vercel
 >>>>>>> Stashed changes
+=======
+.next
+>>>>>>> b8e1f073a17c81be9366afd6629568cf5c5fb0e3

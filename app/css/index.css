@@ -1,11 +1,77 @@
-body{
-    width: 100%;
-}
-
-.header{
-    height: 100vh;
+/* Estilos generales */
+.page-index {
+    color: black;
+    background-color: #5f8be3;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+}
+
+.page-index:hover {
+    color: white;
+    box-shadow: 2px 5px 0px 0px #fff;
+}
+
+.page-version {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+}
+
+.page-version-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-ver-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-version-img {
+    border-radius: 25px;
+}
+
+.page-version-img:hover {
+    box-shadow: 2px 5px 0px 0px #fff;
+    border-radius: 25px;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.page-back {
+    background-image: url(/public/Back-Left.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    overflow: hidden; /* Evita el desbordamiento del contenido */
+}
+
+
+@media screen and (max-width: 768px) {
+    .page-index {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .page-version {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar{
+        z-index: 10;
+    }
 }

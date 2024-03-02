@@ -1,0 +1,112 @@
+
+.page-spam-tranp{
+    width: 300px;
+    height: 30px;
+    background-color: #5f8be3;
+    border-radius: 25px;
+    box-shadow: 2px 5px 0px 0px #fff;
+
+}
+.page-spam-tranp-1{
+    width: 300px;
+    height: 30px;
+    background-color: #5f8be3;
+    border-radius: 25px;
+    box-shadow: 2px 5px 0px 0px #fff;
+
+}
+.page-spam-tranp-2{
+    width: 350px;
+    height: 30px;
+    right: 10%;
+    background-color: #5f8be3;
+    border-radius: 25px;
+    box-shadow: 2px 5px 0px 0px #fff;
+    position: relative;
+
+}
+.page-spam-tranp-p{
+    width: 250px;
+    height: 50px;
+    background-color: #5f8be3;
+    border-radius: 25px;
+    box-shadow: 2px 5px 0px 0px #fff;
+    position: relative;
+    z-index: 1;
+
+}
+.page-spam-tranp-3{
+    width: 300px;
+    height: 30px;
+    background-color: #5f8be3;
+    border-radius: 25px;
+    box-shadow: 2px 5px 0px 0px #fff;
+    z-index: 1;
+
+}
+.page-spam-tranp{
+    width: 300px;
+    height: 30px;
+    background-color: #5f8be3;
+    border-radius: 25px;
+    box-shadow: 2px 5px 0px 0px #fff;
+
+}
+.page-spam-tranp{
+    width: 300px;
+    height: 30px;
+    background-color: #5f8be3;
+    border-radius: 25px;
+    box-shadow: 2px 5px 0px 0px #fff;
+
+}
+.page-spam-tranp{
+    width: 300px;
+    height: 30px;
+    background-color: #5f8be3;
+    border-radius: 25px;
+    box-shadow: 2px 5px 0px 0px #fff;
+
+}
+
+.page-spam-one {
+    font-size: 22px;
+    color: black;
+    background-color: #5f8be3;
+    margin: 20px;
+    padding: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    right: 20%;
+    position: relative;
+    box-shadow: 2px 5px 0px 0px #fff;
+    border: #fff solid 1px;
+}
+
+.page-spam-one:hover {
+    color: white;
+    box-shadow: 2px 5px 0px 0px #fff;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.page-spam-two {
+    font-size: 18px;
+    color: black;
+    background-color: #5f8be3;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    right: 10%;
+    position: relative;
+    box-shadow: 2px 5px 0px 0px #fff;
+    border: #fff solid 1px;
+}
+
+.page-spam-two:hover {
+    color: white;
+    box-shadow: 2px 5px 0px 0px #fff;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

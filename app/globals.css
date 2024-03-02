@@ -1,10 +1,10 @@
-*{
-  padding: 0px;
-  margin: 0px;
+* {
+  padding: 0;
+  margin: 0;
   font-family: monospace;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -23,6 +23,12 @@ body {
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  background: #dbe0ec;
+  background: #27292e;
   font-family: monospace;
+}
+
+@media (pointer: coarse) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
 }

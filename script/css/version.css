@@ -1,0 +1,20 @@
+.version-content{
+    color: black;
+    position: absolute;
+    background-color: #5f8be3;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    top: 53%;
+    box-shadow: 2px 5px 0px 0px #fff;
+    border: #fff solid 1px;
+    z-index: 999;
+}
+
+.version-content:hover{
+    color: white;
+    box-shadow: 2px 5px 0px 0px #fff;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
